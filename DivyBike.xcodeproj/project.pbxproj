@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4766AC521B56128F0096ECA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4766AC511B56128F0096ECA0 /* AppDelegate.swift */; };
+		4766AC541B56128F0096ECA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4766AC531B56128F0096ECA0 /* ViewController.swift */; };
+		4766AC571B56128F0096ECA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4766AC551B56128F0096ECA0 /* Main.storyboard */; };
+		4766AC591B56128F0096ECA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4766AC581B56128F0096ECA0 /* Images.xcassets */; };
+		4766AC5C1B56128F0096ECA0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4766AC5A1B56128F0096ECA0 /* LaunchScreen.xib */; };
+		4766AC681B56128F0096ECA0 /* DivyBikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4766AC671B56128F0096ECA0 /* DivyBikeTests.swift */; };
+		750A70E81E4189F60087EE22 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750A70E71E4189F60087EE22 /* Info.swift */; };
+		753355191E418E7100F8344E /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753355181E418E7100F8344E /* InfoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4766AC621B56128F0096ECA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4766AC441B56128F0096ECA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4766AC4B1B56128F0096ECA0;
+			remoteInfo = DivyBike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4766AC4C1B56128F0096ECA0 /* DivyBike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DivyBike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4766AC501B56128F0096ECA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4766AC511B56128F0096ECA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4766AC531B56128F0096ECA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4766AC561B56128F0096ECA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4766AC581B56128F0096ECA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4766AC5B1B56128F0096ECA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4766AC611B56128F0096ECA0 /* DivyBikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DivyBikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4766AC661B56128F0096ECA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4766AC671B56128F0096ECA0 /* DivyBikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivyBikeTests.swift; sourceTree = "<group>"; };
+		750A70E71E4189F60087EE22 /* Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		753355181E418E7100F8344E /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4766AC491B56128F0096ECA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4766AC5E1B56128F0096ECA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4766AC431B56128F0096ECA0 = {
+			isa = PBXGroup;
+			children = (
+				4766AC4E1B56128F0096ECA0 /* DivyBike */,
+				4766AC641B56128F0096ECA0 /* DivyBikeTests */,
+				4766AC4D1B56128F0096ECA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4766AC4D1B56128F0096ECA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4766AC4C1B56128F0096ECA0 /* DivyBike.app */,
+				4766AC611B56128F0096ECA0 /* DivyBikeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4766AC4E1B56128F0096ECA0 /* DivyBike */ = {
+			isa = PBXGroup;
+			children = (
+				4766AC511B56128F0096ECA0 /* AppDelegate.swift */,
+				4766AC531B56128F0096ECA0 /* ViewController.swift */,
+				750A70E71E4189F60087EE22 /* Info.swift */,
+				753355181E418E7100F8344E /* InfoViewController.swift */,
+				4766AC551B56128F0096ECA0 /* Main.storyboard */,
+				4766AC581B56128F0096ECA0 /* Images.xcassets */,
+				4766AC5A1B56128F0096ECA0 /* LaunchScreen.xib */,
+				4766AC4F1B56128F0096ECA0 /* Supporting Files */,
+			);
+			path = DivyBike;
+			sourceTree = "<group>";
+		};
+		4766AC4F1B56128F0096ECA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4766AC501B56128F0096ECA0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4766AC641B56128F0096ECA0 /* DivyBikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4766AC671B56128F0096ECA0 /* DivyBikeTests.swift */,
+				4766AC651B56128F0096ECA0 /* Supporting Files */,
+			);
+			path = DivyBikeTests;
+			sourceTree = "<group>";
+		};
+		4766AC651B56128F0096ECA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4766AC661B56128F0096ECA0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4766AC4B1B56128F0096ECA0 /* DivyBike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4766AC6B1B56128F0096ECA0 /* Build configuration list for PBXNativeTarget "DivyBike" */;
+			buildPhases = (
+				4766AC481B56128F0096ECA0 /* Sources */,
+				4766AC491B56128F0096ECA0 /* Frameworks */,
+				4766AC4A1B56128F0096ECA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DivyBike;
+			productName = DivyBike;
+			productReference = 4766AC4C1B56128F0096ECA0 /* DivyBike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4766AC601B56128F0096ECA0 /* DivyBikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4766AC6E1B56128F0096ECA0 /* Build configuration list for PBXNativeTarget "DivyBikeTests" */;
+			buildPhases = (
+				4766AC5D1B56128F0096ECA0 /* Sources */,
+				4766AC5E1B56128F0096ECA0 /* Frameworks */,
+				4766AC5F1B56128F0096ECA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4766AC631B56128F0096ECA0 /* PBXTargetDependency */,
+			);
+			name = DivyBikeTests;
+			productName = DivyBikeTests;
+			productReference = 4766AC611B56128F0096ECA0 /* DivyBikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4766AC441B56128F0096ECA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MobileMakers;
+				TargetAttributes = {
+					4766AC4B1B56128F0096ECA0 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = RY3D47G7M3;
+						LastSwiftMigration = 0820;
+					};
+					4766AC601B56128F0096ECA0 = {
+						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0820;
+						TestTargetID = 4766AC4B1B56128F0096ECA0;
+					};
+				};
+			};
+			buildConfigurationList = 4766AC471B56128F0096ECA0 /* Build configuration list for PBXProject "DivyBike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4766AC431B56128F0096ECA0;
+			productRefGroup = 4766AC4D1B56128F0096ECA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4766AC4B1B56128F0096ECA0 /* DivyBike */,
+				4766AC601B56128F0096ECA0 /* DivyBikeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4766AC4A1B56128F0096ECA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4766AC571B56128F0096ECA0 /* Main.storyboard in Resources */,
+				4766AC5C1B56128F0096ECA0 /* LaunchScreen.xib in Resources */,
+				4766AC591B56128F0096ECA0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4766AC5F1B56128F0096ECA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4766AC481B56128F0096ECA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750A70E81E4189F60087EE22 /* Info.swift in Sources */,
+				4766AC541B56128F0096ECA0 /* ViewController.swift in Sources */,
+				753355191E418E7100F8344E /* InfoViewController.swift in Sources */,
+				4766AC521B56128F0096ECA0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4766AC5D1B56128F0096ECA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4766AC681B56128F0096ECA0 /* DivyBikeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4766AC631B56128F0096ECA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4766AC4B1B56128F0096ECA0 /* DivyBike */;
+			targetProxy = 4766AC621B56128F0096ECA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4766AC551B56128F0096ECA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4766AC561B56128F0096ECA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4766AC5A1B56128F0096ECA0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4766AC5B1B56128F0096ECA0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4766AC691B56128F0096ECA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4766AC6A1B56128F0096ECA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4766AC6C1B56128F0096ECA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RY3D47G7M3;
+				INFOPLIST_FILE = DivyBike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mm.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4766AC6D1B56128F0096ECA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RY3D47G7M3;
+				INFOPLIST_FILE = DivyBike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mm.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4766AC6F1B56128F0096ECA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DivyBikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mm.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DivyBike.app/DivyBike";
+			};
+			name = Debug;
+		};
+		4766AC701B56128F0096ECA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DivyBikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mm.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DivyBike.app/DivyBike";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4766AC471B56128F0096ECA0 /* Build configuration list for PBXProject "DivyBike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4766AC691B56128F0096ECA0 /* Debug */,
+				4766AC6A1B56128F0096ECA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4766AC6B1B56128F0096ECA0 /* Build configuration list for PBXNativeTarget "DivyBike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4766AC6C1B56128F0096ECA0 /* Debug */,
+				4766AC6D1B56128F0096ECA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4766AC6E1B56128F0096ECA0 /* Build configuration list for PBXNativeTarget "DivyBikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4766AC6F1B56128F0096ECA0 /* Debug */,
+				4766AC701B56128F0096ECA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4766AC441B56128F0096ECA0 /* Project object */;
+}
